@@ -12,3 +12,4 @@ Imports:
     stringr
 URL: http://github.com/jlaffy/cacheCall
 BugReports: http://github.com/jlaffy/cacheCall/issues
+Roxygen: list(markdown = TRUE)
