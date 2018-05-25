@@ -1,11 +1,7 @@
 Package: cacheCall
 Version: 0.1
 Title: Calls to Cache
-Description: Calls to cache in R. callCache() is a function wrapper, such that for every real function call,
-	enclosing it with callCache() first checks whether the output of the function call exists in cachePath.
-	If the file does not exist, it executes the function call and saves the output to cachePath.
-	If the file does exist, it reads the file. The filename is generated here and the file
-	naming convention is determined by the function name(s) and arguments provided.
+Description: Calls to cache in R. callCache() is a function wrapper, such that for every real function call, enclosing it with callCache() first checks whether the output of the function call exists in cachePath. If the file does not exist, it executes the function call and saves the output to cachePath. If the file does exist, it reads the file. The filename is generated here and the file naming convention is determined by the function name(s) and arguments provided.
 Authors@R: person("Julie", "Laffy", email = "julie.laffy@weizmann.ac.il", role = c("aut", "cre"))
 License: MIT
 Encoding: UTF-8
